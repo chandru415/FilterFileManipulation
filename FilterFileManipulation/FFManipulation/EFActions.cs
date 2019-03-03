@@ -14,11 +14,11 @@ namespace FFManipulation
 #if FRAMECORE
         /**<summary>
             Perfrom Operations like COPY, MOVE, DELETE To a Specific File-Extension Files.
-            <para><b>destinationPath</b> is optional.Option has value like: 1 - COPY, 2 - MOVE, 3</para>
+            <para><b>destinationPath</b> is optional.Option has value like: 1 - COPY, 2 - MOVE, 3 - DELETE</para>
             <param name = "option" > T:int, 1 - COPY, 2 - MOVE, 3 - DELETE</param>
-            <param name = "sourcePath" > string </param>
-            <param name= "extension" > string </param>
-            <param name= "destinationPath" > string </param>
+            <param name = "sourcePath" ></param>
+            <param name= "extension" ></param>
+            <param name= "destinationPath" ></param>
         <returns>
             Operation Status, File Count as Tuple.
             T: CallResult for Framework 4.0 to 4.6
@@ -34,22 +34,22 @@ namespace FFManipulation
 #else
 
         /**<summary>
-             Perfrom Operations like COPY, MOVE, DELETE To a Specific File-Extension Files.
-             <para><b>destinationPath</b> is optional.Option has value like: 1 - COPY, 2 - MOVE, 3</para>
-             <param name = "option" > T:int, 1 - COPY, 2 - MOVE, 3 - DELETE</param>
-             <param name = "sourcePath" > string </param>
-             <param name= "extension" > string </param>
-             <param name= "destinationPath" > string </param>
-         <returns>
-             Operation Status, File Count as Tuple.
-             T: CallResult for Framework 4.0 to 4.6
-        </returns>
-        <exception cref = "System.IO.IOException" >
-             T:System.IO.IOException:
-                An I/O error occurred.
-         </exception>
-         </summary>
-       */
+              Perfrom Operations like COPY, MOVE, DELETE To a Specific File-Extension Files.
+              <para><b>destinationPath</b> is optional.Option has value like: 1 - COPY, 2 - MOVE, 3 - DELETE</para>
+              <param name = "option" > T:int, 1 - COPY, 2 - MOVE, 3 - DELETE</param>
+              <param name = "sourcePath" ></param>
+              <param name= "extension" ></param>
+              <param name= "destinationPath" ></param>
+          <returns>
+              Operation Status, File Count as Tuple.
+              T: CallResult for Framework 4.0 to 4.6
+         </returns>
+         <exception cref = "System.IO.IOException" >
+              T:System.IO.IOException:
+                 An I/O error occurred.
+          </exception>
+          </summary>
+        */
         public static (bool, int) FileManipulation(int option, string sourcePath, string extension, string destinationPath = null)
         {
 #endif

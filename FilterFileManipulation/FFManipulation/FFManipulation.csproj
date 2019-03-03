@@ -18,6 +18,7 @@
 Supports for .NetFramework 4.0+, .NetCore 2.0+, .Standard 2.0+</Description>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
+    <NeutralLanguage>en-IN</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net40'">
