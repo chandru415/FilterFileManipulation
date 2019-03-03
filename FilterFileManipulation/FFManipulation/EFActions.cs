@@ -8,7 +8,7 @@ namespace FFManipulation
     /// <summary>
     /// T: EFActions
     /// </summary>
-    class EFActions
+    public static class EFActions
     {
         static int count = 0;
 #if FRAMECORE

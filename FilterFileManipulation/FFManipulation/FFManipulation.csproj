@@ -16,6 +16,8 @@
     <PackageProjectUrl>https://github.com/chandru415/FilterFileManipulation/tree/master/FilterFileManipulation</PackageProjectUrl>
     <Description>Allow bulk file copy, move, delete for a specific extension in a folder. 
 Supports for .NetFramework 4.0+, .NetCore 2.0+, .Standard 2.0+</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net40'">
