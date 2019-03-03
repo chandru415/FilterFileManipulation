@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net40;net45;net46;net461;net462;net47;net471;net472;netcoreapp2.0;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net40;net45;net46;net461;net462;net47;net471;net472;netcoreapp2.0;netcoreapp2.1;netcoreapp2.2</TargetFrameworks>
     <Authors>chandru415</Authors>
     <Copyright>chandru415 @ MIT</Copyright>
     <PackageLicenseUrl>https://github.com/chandru415/FilterFileManipulation/blob/master/LICENSE</PackageLicenseUrl>
@@ -14,6 +14,8 @@
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://github.com/chandru415/FilterFileManipulation/tree/master/FilterFileManipulation</PackageProjectUrl>
+    <Description>Allow bulk file copy, move, delete for a specific extension in a folder. 
+Supports for .NetFramework 4.0+, .NetCore 2.0+, .Standard 2.0+</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net40'">
